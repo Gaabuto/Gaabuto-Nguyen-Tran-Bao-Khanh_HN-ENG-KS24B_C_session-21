@@ -18,9 +18,9 @@ int main(){
     printf("Nhap so luong sinh vien: ");
     scanf("%d", &n);
     getchar(); 
-    for ( int i = 0; i < n, i ++){
+    for ( int i = 0; i < n; i ++){
     	printf("Sinh vien thu %d: \n",i + 1);
     	printf("ID: ");
-    	fgets(list.id,50,stdin);
+    	fgets(list[i].id,50,stdin);
 	}
 }
